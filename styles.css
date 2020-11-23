@@ -1,6 +1,27 @@
 :root {
   font-family: Montserrat;
 }
+a {
+  text-decoration: none;
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 
 .panel {
   background: red;
@@ -25,10 +46,14 @@
   font-style: normal;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  -webkit-text-stroke: 1.4px #000000;
 }
 .address li {
   width: 400px;
   font-weight: 400;
   display: inline;
+  padding: 50px;
+}
+.navigation-list-item {
+  display: inline;
+  text-transform: uppercase;
 }
