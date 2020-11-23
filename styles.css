@@ -60,3 +60,10 @@ a:active {
   display: inline;
   text-transform: uppercase;
 }
+.logo-list li {
+  display: inline;
+  padding: 50px;
+}
+.logo {
+  width: 1080px;
+}
