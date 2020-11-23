@@ -27,8 +27,8 @@
   text-transform: uppercase;
   -webkit-text-stroke: 1.4px #000000;
 }
-.address {
+.address li {
   width: 400px;
-  display: flex;
   font-weight: 400;
+  display: inline;
 }
