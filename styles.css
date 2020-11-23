@@ -53,6 +53,9 @@ a:active {
   display: inline;
   padding: 50px;
 }
+.navigation {
+  width: 1080px;
+}
 .navigation-list-item {
   display: inline;
   text-transform: uppercase;
