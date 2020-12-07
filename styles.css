@@ -5,7 +5,7 @@ a {
   text-decoration: none;
 }
 a:link {
-  color: red;
+  color: rgb(14, 5, 5);
 }
 
 /* visited link */
@@ -22,14 +22,34 @@ a:hover {
 a:active {
   color: blue;
 }
+/* --------------- ШАПКА --------------- */
+.header {
+  background-color: rgb(161, 147, 128);
+}
+.container {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.address {
+  display: inline-flexbox;
+  font-size: large;
+  font-weight: 700;
+  width: 600px;
+  text-align: center;
+  align-content: space-between;
+  align-items: center;
+  font-style: normal;
+}
 .panel {
   background: red;
   color: cornsilk;
 }
 .logo {
   width: 400px;
-  box-sizing: content-box;
 }
 .kste {
   color: black;
@@ -48,22 +68,45 @@ a:active {
   text-transform: uppercase;
 }
 .address li {
-  width: 400px;
   font-weight: 400;
   display: inline;
-  padding: 50px;
 }
 .navigation {
-  width: 1080px;
+  width: 800px;
+  margin: auto;
+  font-size: large;
+}
+.navigation-list {
+  display: inline-flex;
 }
 .navigation-list-item {
-  display: inline;
+  display: flex;
   text-transform: uppercase;
+  margin-right: 30px;
 }
-.logo-list li {
-  display: inline;
-  padding: 50px;
+.logo-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+}
+.logo-list-item {
+  padding-right: 100px;
 }
 .logo {
-  width: 1080px;
+  width: auto;
+  display: flex;
+}
+.logo-header {
+  text-align: center;
+}
+/* ------------------- HERO ---------------------- */
+.background {
+  background-image: url(./images/background.jpg);
+  background-size: contain;
+}
+/* ------------------- FOOTER ---------------- */
+.footer {
+  background-color: burlywood;
 }
